@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato',sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color : #f1f5f8;
+}
+.container h1{
+
+    margin-bottom: 50px;
+
+}
+.container h2{
+    border:  2px solid rgba(0,0,0,0.1);
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+.btn{
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn:active{
+    background-color: lightblue;
+}
